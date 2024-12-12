@@ -1,4 +1,4 @@
-import '../operation/operations.dart';
+import '../operations/operations.dart';
 /**
     OperationFactory class
     - parameters:[operator]연산자
