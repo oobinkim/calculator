@@ -20,7 +20,6 @@ class Calculator {
     final operand1 = double.parse(parts[0]);
     final operator = parts[1];
     final operand2 = double.parse(parts[2]);
-    print('연산자(operator): $operator');
     final operation = OperationFactory.getOperation(operator);
     return operation.execute(operand1, operand2);
   }
